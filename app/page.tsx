@@ -61,7 +61,7 @@ export default function Home() {
         </div>
         <div className="text-6xl flex items-center justify-center pt-6 pb-36">
           {price}
-          <span className="text-3xl px-2 font-bold pt-1">円</span>
+          <span className="text-3xl px-2 font-bold pt-2">円</span>
         </div>
         <div className="flex flex-col gap-4">
           <div className="text-xs font-bold border bg-amber-400 text-center w-fit mx-auto border-white rounded-full py-1 px-3">
