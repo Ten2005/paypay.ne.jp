@@ -53,13 +53,13 @@ export default function Home() {
           <ChevronLeftIcon className="h-6 w-6 text-white" />
         </div>
         <div className="flex flex-col gap-2 mt-6">
-          <div className="w-16 h-16 rounded-full bg-white flex items-center justify-center mb-1 mx-auto overflow-hidden">
+          <div className="w-20 h-20 rounded-full bg-white flex items-center justify-center mb-2 mx-auto overflow-hidden">
             <img src="/icon.jpeg" alt="Profile" className="w-full h-full object-cover rounded-full" />
           </div>
           <div className="text-sm font-bold text-center">受け取りリンク</div>
           <div className="text-sm font-bold text-center">{now_str}</div>
         </div>
-        <div className="text-5xl flex items-center justify-center pt-6 pb-36">
+        <div className="text-6xl flex items-center justify-center pt-6 pb-36">
           {price}
           <span className="text-3xl px-2 font-bold pt-1">円</span>
         </div>
