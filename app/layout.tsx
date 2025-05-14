@@ -14,7 +14,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "PayPayマネー",
-  description: "[PayPay] 受け取り依頼が届きました。下記リンクより、受け取りを完了してください。",
+  description:
+    "[PayPay] 受け取り依頼が届きました。下記リンクより、受け取りを完了してください。",
 };
 
 export default function RootLayout({

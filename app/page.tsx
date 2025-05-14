@@ -37,7 +37,7 @@ export default function Home() {
         style={{ backgroundColor: "#EF7B7A" }}
         className="absolute inset-0 z-0"
       />
-      <div 
+      <div
         className="absolute inset-0 z-[1] opacity-20"
         style={{
           backgroundImage: `
@@ -54,10 +54,18 @@ export default function Home() {
         </div>
         <div className="flex flex-col gap-2 mt-6">
           <div className="w-20 h-20 rounded-full bg-white flex items-center justify-center mb-2 mx-auto overflow-hidden">
-            <img src="/icon.jpeg" alt="Profile" className="w-full h-full object-cover rounded-full" />
+            <img
+              src="/icon.jpeg"
+              alt="Profile"
+              className="w-full h-full object-cover rounded-full"
+            />
           </div>
-          <div className="text-sm font-bold text-center text-white">受け取りリンク</div>
-          <div className="text-sm font-bold text-center text-white">{now_str}</div>
+          <div className="text-sm font-bold text-center text-white">
+            受け取りリンク
+          </div>
+          <div className="text-sm font-bold text-center text-white">
+            {now_str}
+          </div>
         </div>
         <div className="text-6xl flex items-center justify-center pt-6 pb-36 text-white">
           {price}
@@ -120,7 +128,8 @@ export default function Home() {
                 送信日<span className="font-bold">{now_str2}</span>
               </div>
               <div className="text-xs text-white flex items-center justify-between">
-                有効期限<span className="font-bold">{after_four_days_str2}</span>
+                有効期限
+                <span className="font-bold">{after_four_days_str2}</span>
               </div>
               <div className="text-xs text-white flex items-center justify-between">
                 取引番号
