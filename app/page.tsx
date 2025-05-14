@@ -56,30 +56,30 @@ export default function Home() {
           <div className="w-20 h-20 rounded-full bg-white flex items-center justify-center mb-2 mx-auto overflow-hidden">
             <img src="/icon.jpeg" alt="Profile" className="w-full h-full object-cover rounded-full" />
           </div>
-          <div className="text-sm font-bold text-center">受け取りリンク</div>
-          <div className="text-sm font-bold text-center">{now_str}</div>
+          <div className="text-sm font-bold text-center text-white">受け取りリンク</div>
+          <div className="text-sm font-bold text-center text-white">{now_str}</div>
         </div>
         <div className="text-6xl flex items-center justify-center pt-6 pb-36">
           {price}
-          <span className="text-3xl px-2 font-bold pt-2">円</span>
+          <span className="text-3xl px-2 font-bold pt-2 text-white">円</span>
         </div>
         <div className="flex flex-col gap-4">
-          <div className="text-xs font-bold border bg-amber-400 text-center w-fit mx-auto border-white rounded-full py-1 px-3">
+          <div className="text-xs font-bold border bg-amber-400 text-center w-fit mx-auto border-white rounded-full py-1 px-3 text-white">
             受け取り待ち
           </div>
-          <div className="text-xs font-bold ">
+          <div className="text-xs font-bold text-white">
             受け取り期限 {after_four_days_str}
           </div>
         </div>
 
         <div className="flex flex-col gap-3 w-full mb-4 mt-2">
           <div
-            className="text-xs font-bold border border-white rounded-full py-2 my-2 px-3 w-full flex items-center justify-between"
+            className="text-xs font-bold border border-white rounded-full py-2 my-2 px-3 w-full flex items-center justify-between text-white"
             style={{ backgroundColor: "rgba(0, 0, 0, 0.1)" }}
           >
             https://pay.paypay.ne.jp/cRHaijoaw4wt
             <span className="flex items-center gap-1">
-              <Square2StackIcon className="h-4 w-4 transform scale-x-[-1]" />
+              <Square2StackIcon className="h-4 w-4 transform scale-x-[-1] text-white" />
               コピー
             </span>
           </div>
