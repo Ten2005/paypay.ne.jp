@@ -59,7 +59,7 @@ export default function Home() {
           <div className="text-sm font-bold text-center text-white">受け取りリンク</div>
           <div className="text-sm font-bold text-center text-white">{now_str}</div>
         </div>
-        <div className="text-6xl flex items-center justify-center pt-6 pb-36">
+        <div className="text-6xl flex items-center justify-center pt-6 pb-36 text-white">
           {price}
           <span className="text-3xl px-2 font-bold pt-2 text-white">円</span>
         </div>
