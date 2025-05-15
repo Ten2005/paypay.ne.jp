@@ -34,7 +34,7 @@ export default function Home() {
   return (
     <div className="relative h-screen w-screen overflow-hidden">
       <div
-        style={{ backgroundColor: "#EF7B7A" }}
+        style={{ backgroundColor: "oklch(75% 0.2 25)" }}
         className="absolute inset-0 z-0"
       />
       <div
@@ -83,7 +83,7 @@ export default function Home() {
         <div className="flex flex-col gap-3 w-full mb-4 mt-2">
           <div
             className="text-xs font-bold border border-white rounded-full py-2 my-2 px-3 w-full flex items-center justify-between text-white"
-            style={{ backgroundColor: "rgba(0, 0, 0, 0.1)" }}
+            style={{ backgroundColor: "rgba(0, 0, 0, 0.08)" }}
           >
             https://pay.paypay.ne.jp/cRHaijoaw4wt
             <span className="flex items-center gap-1">
@@ -96,7 +96,7 @@ export default function Home() {
           </div>
           <div
             className="w-full text-center font-bold text-white text-sm border-2 border-white rounded-lg py-2 px-4"
-            style={{ backgroundColor: "rgba(0, 0, 0, 0.1)" }}
+            style={{ backgroundColor: "rgba(0, 0, 0, 0.08)" }}
           >
             辞退する
           </div>
@@ -105,7 +105,7 @@ export default function Home() {
         <div className="border-t border-white w-full pt-4">
           <div
             className="w-full rounded-lg p-4 flex flex-col gap-2"
-            style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
+            style={{ backgroundColor: "rgba(0, 0, 0, 0.24)" }}
           >
             <div className="text-sm text-white font-bold">詳細</div>
 
